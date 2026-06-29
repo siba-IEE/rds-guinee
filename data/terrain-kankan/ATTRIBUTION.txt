@@ -1,0 +1,27 @@
+Source : World Bank / ESMAP / WAPP, campagne de mesure du gisement solaire en
+Afrique de l'Ouest (Solar resource measurement campaign in West Africa).
+Station de Kankan, Guinée.
+
+Licence : CC BY 4.0.
+Attribution requise :
+« World Bank / ESMAP / WAPP, Solar resource measurement campaign in West Africa
+(CC BY 4.0). »
+
+C'est la seule source de couche A du dépôt : mesure au sol, pas satellite ni
+réanalyse. Voir la chaîne de confiance dans la doctrine.
+
+Station co-localisée avec la localité gin_kankan (environ 10,383 N, -9,300 E,
+381 m). Mesures horaires de GHI et de DNI, fenêtre du 18 octobre 2021 au
+17 octobre 2023 (deux ans).
+
+journalier_2021_2023.csv
+   Total journalier (kWh/m²/jour) obtenu en intégrant les mesures horaires
+   (W/m²) sur les 24 heures de chaque jour. 730 jours, tous complets.
+
+mensuel_2021_2023.csv
+   Moyenne des totaux journaliers par mois civil. La colonne `jours` donne le
+   nombre de jours mesurés dans le mois : octobre 2021 (14 jours) et octobre 2023
+   (17 jours) sont partiels du fait de la fenêtre de campagne, à interpréter avec
+   prudence.
+
+Données ouvertes (CC BY 4.0). Voir aussi SOURCES.md à la racine du dépôt.
