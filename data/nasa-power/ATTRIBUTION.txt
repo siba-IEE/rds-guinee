@@ -1,0 +1,12 @@
+Source : NASA POWER (Prediction Of Worldwide Energy Resources), projet du NASA
+Langley Research Center.
+
+Attribution requise :
+« These data were obtained from the NASA Langley Research Center (LaRC) POWER
+Project funded through the NASA Earth Science / Applied Science Program. »
+
+Rayonnement : CERES SYN1deg et FLASHFlux, grille 1° (environ 110 km à 10° N).
+Météo (température, humidité, vent) : MERRA-2.
+Méthodologie : https://power.larc.nasa.gov/docs/methodology/
+
+Données ouvertes (NASA). Voir aussi SOURCES.md à la racine du dépôt.
