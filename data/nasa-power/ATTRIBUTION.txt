@@ -6,7 +6,8 @@ Attribution requise :
 Project funded through the NASA Earth Science / Applied Science Program. »
 
 Rayonnement : CERES SYN1deg et FLASHFlux, grille 1° (environ 110 km à 10° N).
-Météo (température, humidité, vent) : MERRA-2.
+Météo (température, humidité, vent, précipitation) : MERRA-2.
+Précipitation : paramètre PRECTOTCORR (précipitation corrigée), série journalière.
 Méthodologie : https://power.larc.nasa.gov/docs/methodology/
 
 Données ouvertes (NASA). Voir aussi SOURCES.md à la racine du dépôt.

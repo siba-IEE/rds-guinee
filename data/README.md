@@ -9,7 +9,8 @@ limites : voir [CAVEATS](../CAVEATS.md) et la
 
 - `localites.csv` : référentiel des localités (code, nom, région administrative,
   coordonnées, altitude).
-- `nasa-power/` : NASA POWER, mensuel 1991-2020 et journalier 2021-2025.
+- `nasa-power/` : NASA POWER, mensuel 1991-2020 et journalier 2021-2025. La
+  série journalière inclut la précipitation (mm/jour) ; la série mensuelle non.
 - `cams/` : Copernicus CAMS. Irradiation directe normale (dni) mensuelle
   2004-2023, et particules en suspension (pm10, pm2_5) journalières 2021-2025.
 - `era5-land/` : ERA5-Land (réanalyse Copernicus C3S). Rayonnement, température
@@ -38,6 +39,7 @@ sont classées par source ; le terrain est classé par station, chaque station
 | `rh2m` | humidité relative à 2 m | % |
 | `vent_2m`, `vent_10m` | vitesse du vent à 2 m et 10 m | m/s |
 | `pm10`, `pm2_5` | particules en suspension (diamètre < 10 µm, < 2,5 µm) | µg/m³ |
+| `precipitation` | précipitation corrigée (NASA POWER PRECTOTCORR) | mm/jour |
 | `jours` | nombre de jours mesurés dans le mois (terrain) | |
 
 ## À lire avant usage
