@@ -1,0 +1,24 @@
+Source : ERA5-Land, Copernicus Climate Change Service (C3S), produit par le
+CEPMMT (ECMWF) et distribué par le Climate Data Store.
+
+Attribution requise :
+« Generated using Copernicus Climate Change Service information 2025. »
+
+Ni la Commission européenne ni le CEPMMT ne sont responsables de l'usage qui
+est fait de ces données.
+
+Variables reprises :
+- ghi : rayonnement solaire de surface descendant (surface solar radiation
+  downwards), converti en kWh/m²/jour.
+- t2m : température de l'air à 2 m, en °C.
+- vent_10m : vitesse du vent à 10 m, en m/s.
+
+ERA5-Land est une réanalyse à environ 9 km de résolution. Le rayonnement de
+réanalyse présente un biais connu sous ciel nuageux et reste une donnée de
+couche B (voir CAVEATS.md). Le vent à l'intérieur des terres y est souvent
+faible.
+
+mensuel_2001_2020.csv : moyennes mensuelles, 2001-2020.
+journalier_2021_2025.csv : moyennes journalières, 2021-2025.
+
+Données ouvertes (Copernicus). Voir aussi SOURCES.md à la racine du dépôt.
