@@ -1,0 +1,22 @@
+Source : Copernicus Atmosphere Monitoring Service (CAMS), opéré par le CEPMMT
+(ECMWF) pour le compte de l'Union européenne.
+
+Attribution requise :
+« Generated using Copernicus Atmosphere Monitoring Service information 2025. »
+
+Ni la Commission européenne ni le CEPMMT ne sont responsables de l'usage qui
+est fait de ces données.
+
+Deux jeux distincts :
+
+1. radiation_dni_mensuel_2004_2023.csv
+   Service CAMS Radiation (rayonnement de surface dérivé de Meteosat, modèle de
+   ciel clair McClear). Irradiation directe normale (dni) mensuelle, moyenne en
+   kWh/m²/jour. Disponible à partir de février 2004 (début du service).
+
+2. aerosol_pm_journalier_2021_2025.csv
+   Réanalyse CAMS EAC4 (cams-global-reanalysis-eac4). Particules en suspension
+   pm10 et pm2_5 journalières, en µg/m³. Utile pour l'empoussièrement des
+   modules (soiling) et la lecture de la saison sèche (Harmattan).
+
+Données ouvertes (Copernicus). Voir aussi SOURCES.md à la racine du dépôt.
