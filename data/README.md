@@ -14,9 +14,13 @@ limites : voir [CAVEATS](../CAVEATS.md) et la
   2004-2023, et particules en suspension (pm10, pm2_5) journalières 2021-2025.
 - `era5-land/` : ERA5-Land (réanalyse Copernicus C3S). Rayonnement, température
   et vent, mensuel 2001-2020 et journalier 2021-2025.
-- À venir : SARAH-3, terrain Kankan.
+- `sarah3/` : PVGIS-SARAH-3 (JRC, CM SAF / EUMETSAT). GHI mensuel 2021-2023.
+- `terrain-kankan/` : station de mesure au sol de Kankan (ESMAP / WAPP),
+  **couche A**. GHI et DNI, journalier et mensuel, fenêtre 2021-2023.
 
-Chaque source porte son `ATTRIBUTION.txt`.
+Chaque source porte son `ATTRIBUTION.txt`. Les couches B (satellite, réanalyse)
+sont classées par source ; le terrain est classé par station, chaque station
+étant une entité de mesure autonome.
 
 ## Dictionnaire de données
 
@@ -34,12 +38,21 @@ Chaque source porte son `ATTRIBUTION.txt`.
 | `rh2m` | humidité relative à 2 m | % |
 | `vent_2m`, `vent_10m` | vitesse du vent à 2 m et 10 m | m/s |
 | `pm10`, `pm2_5` | particules en suspension (diamètre < 10 µm, < 2,5 µm) | µg/m³ |
+| `jours` | nombre de jours mesurés dans le mois (terrain) | |
 
 ## À lire avant usage
 
 - **Confiance B** : données satellitaires et de réanalyse, non validées au sol.
   Suffisant pour la pré-faisabilité et la comparaison de sites, pas pour un
   engagement bancable (voir [CAVEATS](../CAVEATS.md)).
+- **Terrain Kankan (confiance A)** : seule source mesurée au sol. Une seule
+  station, sur une fenêtre de deux ans (18 octobre 2021 au 17 octobre 2023), donc
+  octobre 2021 et octobre 2023 sont des mois partiels (voir la colonne `jours`).
+  Deux ans ne suffisent pas à établir une climatologie de long terme ; cette
+  série sert de point d'ancrage pour juger les sources satellitaires sur place,
+  pas de référence inter-annuelle.
+- **SARAH-3** : couverture limitée à 2021-2023 dans ce dépôt. Rayonnement dérivé
+  de Meteosat par un modèle de ciel clair, utile pour recouper NASA POWER et CAMS.
 - **Cellules vides** : valeur absente à la source. Pour NASA POWER, `dni`, `kt`
   et `albedo` ne sont disponibles qu'à partir de 2001 dans la série mensuelle.
   Pour CAMS, la `dni` débute en février 2004 (début du service CAMS Radiation).

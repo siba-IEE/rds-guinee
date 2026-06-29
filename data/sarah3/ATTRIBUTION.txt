@@ -1,0 +1,19 @@
+Source : PVGIS (Photovoltaic Geographical Information System), Commission
+européenne, Centre commun de recherche (JRC). Base de rayonnement SARAH-3
+produite par le CM SAF (Satellite Application Facility on Climate Monitoring,
+EUMETSAT) à partir des satellites Meteosat.
+
+Attribution requise :
+« PVGIS © Union européenne, 2001-2024. Base de rayonnement SARAH-3,
+CM SAF / EUMETSAT. »
+
+ghi_mensuel_2021_2023.csv
+   Irradiation globale horizontale mensuelle, 34 localités, 2021-2023.
+   La valeur d'origine PVGIS (somme mensuelle en kWh/m²) est convertie en moyenne
+   journalière (kWh/m²/jour) en divisant par le nombre de jours du mois, pour
+   rester homogène avec les autres séries du dépôt.
+
+Le rattachement d'un point SARAH-3 à une localité se fait par coordonnées
+(correspondance exacte avec localites.csv).
+
+Données ouvertes (JRC). Voir aussi SOURCES.md à la racine du dépôt.
