@@ -1,0 +1,28 @@
+{
+  "title": "Référentiel de Données Solaires de la Guinée (RDS Guinée)",
+  "description": "Référentiel de données solaires ouvertes, qualifiées et documentées pour la Guinée, destiné au dimensionnement, à la recherche et à la planification énergétique. Chaque donnée porte un passeport : source, méthode, niveau de confiance, période de validité, incertitude. La couche B (NASA POWER, SARAH-3, CAMS, ERA5-Land) couvre l'ensemble des localités ; un premier point de mesure au sol (couche A) est disponible à Kankan (campagne ESMAP/WAPP).",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "language": "fra",
+  "creators": [
+    {
+      "name": "Kalivogui, Siba",
+      "affiliation": "Kuma Science"
+    }
+  ],
+  "keywords": [
+    "énergie solaire",
+    "Guinée",
+    "Afrique de l'Ouest",
+    "gisement solaire",
+    "GHI",
+    "DNI",
+    "données ouvertes",
+    "photovoltaïque",
+    "NASA POWER",
+    "CAMS",
+    "ERA5-Land",
+    "SARAH-3"
+  ]
+}
