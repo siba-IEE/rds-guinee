@@ -7,11 +7,12 @@ authors:
   - family-names: Kalivogui
     given-names: Siba
     affiliation: "Kuma Science"
+doi: "10.5281/zenodo.21051754"
 license: CC-BY-4.0
 repository-code: "https://github.com/siba-IEE/rds-guinee"
 url: "https://github.com/siba-IEE/rds-guinee"
 version: "1.0.0"
-date-released: "2026-06-29"
+date-released: "2026-06-30"
 keywords:
   - "énergie solaire"
   - "Guinée"
