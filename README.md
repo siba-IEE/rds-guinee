@@ -35,7 +35,8 @@ Ce dépôt contient :
   fiches de grandeurs ;
 - les **données** ouvertes des localités solaires guinéennes, par source, avec
   leur attribution ;
-- le **schéma** de référence.
+- le **schéma** de référence ;
+- des **exemples** d'utilisation sans dépendance (`examples/`).
 
 Il ne contient pas le moteur d'ingestion ni les outils dérivés.
 
