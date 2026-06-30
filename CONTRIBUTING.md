@@ -24,8 +24,8 @@ par défaut en confiance B et au statut `brut` ; elle monte par validation.
 
 ## Comment proposer
 
-- Donnée ou correction : ouvrir une issue décrivant la source et le passeport,
-  puis une pull request.
+- Donnée ou correction : ouvrir une issue (des formulaires guident la saisie du
+  passeport), puis une pull request.
 - Méthodologie : proposer une pull request sur les documents de doctrine, avec
   les références.
 
