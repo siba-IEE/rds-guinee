@@ -1,5 +1,7 @@
 # RDS Guinée
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21051754.svg)](https://doi.org/10.5281/zenodo.21051754)
+
 Référentiel de Données Solaires de la Guinée. Données solaires ouvertes,
 qualifiées et documentées, pour le dimensionnement, la recherche et la
 planification énergétique.
@@ -46,9 +48,15 @@ se gagne par la rigueur et l'usage.
 
 ## Utiliser et citer
 
-Les données sont publiées en instantanés versionnés avec un identifiant
-persistant (DOI). La référence de citation sera indiquée à la première
-publication.
+Les données sont publiées en instantanés versionnés, chacun archivé sur Zenodo
+avec un identifiant persistant (DOI).
+
+Citation :
+
+> Kalivogui, S. (2026). Référentiel de Données Solaires de la Guinée (RDS Guinée). Kuma Science. https://doi.org/10.5281/zenodo.21051754
+
+Ce DOI pointe toujours vers la dernière version. Chaque version a aussi son
+propre DOI : la 1.0.0 correspond à 10.5281/zenodo.21051755.
 
 ## Contribuer
 
