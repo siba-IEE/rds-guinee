@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Si vous utilisez ces données, merci de citer le référentiel comme suit."
+title: "Référentiel de Données Solaires de la Guinée (RDS Guinée)"
+abstract: "Données solaires ouvertes, qualifiées et documentées pour la Guinée, destinées au dimensionnement, à la recherche et à la planification énergétique."
+type: dataset
+authors:
+  - family-names: Kalivogui
+    given-names: Siba
+    affiliation: "Kuma Science"
+license: CC-BY-4.0
+repository-code: "https://github.com/siba-IEE/rds-guinee"
+url: "https://github.com/siba-IEE/rds-guinee"
+version: "1.0.0"
+date-released: "2026-06-29"
+keywords:
+  - "énergie solaire"
+  - "Guinée"
+  - "gisement solaire"
+  - "données ouvertes"
+  - "photovoltaïque"
