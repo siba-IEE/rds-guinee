@@ -1,0 +1,113 @@
+name: Proposer une donnée
+description: Proposer une série, une station ou un jeu de données pour le référentiel.
+title: "[Donnée] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Rien n'entre sans passeport (voir CONTRIBUTING.md et GOVERNANCE.md). Merci de renseigner les champs ci-dessous.
+
+        Le niveau de confiance final (A, B ou C) est attribué par le référentiel selon des règles fixes, pas déclaré librement : une donnée tierce entre par défaut en confiance B, au statut `brut`, et monte par validation.
+  - type: input
+    id: localite
+    attributes:
+      label: Localité ou site
+      description: Nom du lieu, et région si utile.
+      placeholder: ex. Kankan
+    validations:
+      required: true
+  - type: input
+    id: coordonnees
+    attributes:
+      label: Coordonnées
+      description: Latitude, longitude et altitude si connues.
+      placeholder: ex. 10.383, -9.300, 381 m
+    validations:
+      required: false
+  - type: dropdown
+    id: grandeurs
+    attributes:
+      label: Grandeurs concernées
+      multiple: true
+      options:
+        - GHI (irradiation globale horizontale)
+        - DNI (irradiation directe normale)
+        - DHI (irradiation diffuse horizontale)
+        - Température
+        - Humidité
+        - Vent
+        - Précipitation
+        - Autre (préciser dans la méthode)
+    validations:
+      required: true
+  - type: input
+    id: periode
+    attributes:
+      label: Période couverte
+      placeholder: ex. 2021-2023
+    validations:
+      required: true
+  - type: dropdown
+    id: pas_de_temps
+    attributes:
+      label: Pas de temps
+      options:
+        - Horaire
+        - Journalier
+        - Mensuel
+        - Autre
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: Origine de la donnée et référence citable.
+      placeholder: ex. campagne de mesure, agence, projet, jeu public
+    validations:
+      required: true
+  - type: textarea
+    id: methode
+    attributes:
+      label: Méthode
+      description: "Production ou collecte : instrument, modèle, traitement, contrôle qualité."
+    validations:
+      required: true
+  - type: textarea
+    id: incertitude
+    attributes:
+      label: Incertitude connue
+      description: Précision, calibration, biais documenté, limites.
+    validations:
+      required: true
+  - type: dropdown
+    id: droits
+    attributes:
+      label: Droits et licence
+      description: Le référentiel ne publie que de la donnée redistribuable en CC BY 4.0.
+      options:
+        - Redistribuable en CC BY 4.0
+        - Sous licence ouverte compatible (préciser dans la méthode)
+        - Droits à clarifier
+        - Propriétaire, non redistribuable
+    validations:
+      required: true
+  - type: dropdown
+    id: confiance
+    attributes:
+      label: Niveau de confiance pressenti
+      description: Indicatif seulement. Le niveau final est attribué par le référentiel.
+      options:
+        - A (mesure au sol validée)
+        - B (satellite ou réanalyse)
+        - C (estimation de la littérature)
+        - Je ne sais pas
+    validations:
+      required: false
+  - type: checkboxes
+    id: licence
+    attributes:
+      label: Licence de la contribution
+      options:
+        - label: J'accepte que cette contribution soit publiée sous CC BY 4.0 avec attribution.
+          required: true

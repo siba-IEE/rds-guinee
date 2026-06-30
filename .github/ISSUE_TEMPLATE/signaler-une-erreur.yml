@@ -1,0 +1,39 @@
+name: Signaler une erreur de donnée
+description: Signaler une valeur incorrecte ou suspecte dans le référentiel.
+title: "[Correction] "
+body:
+  - type: input
+    id: fichier
+    attributes:
+      label: Fichier ou jeu concerné
+      placeholder: ex. data/nasa-power/journalier_2021_2025.csv
+    validations:
+      required: true
+  - type: input
+    id: localite
+    attributes:
+      label: Localité
+      placeholder: ex. gin_kankan
+    validations:
+      required: false
+  - type: input
+    id: periode
+    attributes:
+      label: Période ou date concernée
+      placeholder: ex. 2022-07-15
+    validations:
+      required: false
+  - type: textarea
+    id: probleme
+    attributes:
+      label: Problème observé
+      description: Valeur présente dans le référentiel et ce qui semble incorrect.
+    validations:
+      required: true
+  - type: textarea
+    id: justification
+    attributes:
+      label: Justification
+      description: Valeur ou comportement attendu, et source à l'appui.
+    validations:
+      required: true
