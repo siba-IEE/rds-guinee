@@ -62,7 +62,8 @@ propre DOI : la 1.0.0 correspond à 10.5281/zenodo.21051755.
 ## Contribuer
 
 Une donnée n'entre qu'avec son passeport (source, méthode, confiance, validité).
-Voir CONTRIBUTING.md et GOVERNANCE.md.
+Voir CONTRIBUTING.md et GOVERNANCE.md. La feuille de route
+(FEUILLE-DE-ROUTE.md) décrit où va le référentiel et ce dont il a besoin.
 
 ## Sources, limites, licence
 
