@@ -38,7 +38,12 @@ Ce dépôt contient :
 - le **schéma** de référence ;
 - des **exemples** d'utilisation sans dépendance (`examples/`).
 
-Il ne contient pas le moteur d'ingestion ni les outils dérivés.
+Les données sont produites par **Kuma Data Core**, l'infrastructure de Kuma :
+ingestion de sources documentées, qualification en confiance (A, B, C),
+versioning non destructif, audit. Le moteur est propriétaire ; la méthode et la
+donnée, elles, sont ouvertes et reproductibles (voir
+[Production de la donnée](doctrine/production-de-la-donnee.md)). Ce dépôt
+n'expose pas le moteur d'ingestion, l'interface de service ni les outils dérivés.
 
 ## Le mot « National »
 

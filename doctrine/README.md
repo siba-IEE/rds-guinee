@@ -9,6 +9,9 @@ qu'elle ne garantit pas.
   et les métadonnées qui l'accompagnent.
 - [Fiches par grandeur](grandeurs/) : méthode, formules et plages de valeurs,
   grandeur par grandeur.
+- [Production de la donnée](production-de-la-donnee.md) : la chaîne qui produit
+  le référentiel, et pourquoi la confiance est ouverte alors que le moteur reste
+  propriétaire.
 
 Voir aussi, à la racine du dépôt : [GOVERNANCE](../GOVERNANCE.md) (cycle
 éditorial), [CAVEATS](../CAVEATS.md) (limites documentées), [SOURCES](../SOURCES.md)
