@@ -1,0 +1,13 @@
+chemin,source,granularite,periode,lignes,localites,sha256
+data/nasa-power/mensuel_1981_2025.csv,nasa-power,mensuel,1981-2025,18360,34,09192658a0a4c35876c095455c4391ba7ef47c1ceeacd5de8133b97723de96b6
+data/era5-land/mensuel_2001_2020.csv,era5-land,mensuel,2001-2020,8160,34,ce895810f37d725a6b44bfb3dd3f084b893b2af202306e1117e69bba9bbcca67
+data/cams/radiation_dni_mensuel_2004_2023.csv,cams,mensuel,2004-2023,8126,34,8676ba43c09404142f62115175dee52306e9833c9203be381ad4fde3e934f440
+data/sarah3/ghi_mensuel_2021_2023.csv,sarah3,mensuel,2021-2023,1224,34,0f3cd2ef0af4644c8c53f76b28d9cdb2fc46aa29f28f6f7018861715f2046152
+data/nasa-power/journalier_1981_1990.csv,nasa-power,journalier,1981-01-01..1990-12-31,124168,34,6dcf360a1f73e84c8795e1b906badbaa7ce88a766063909e82ee5b4e7dd74db8
+data/nasa-power/journalier_1991_2000.csv,nasa-power,journalier,1991-01-01..2000-12-31,124202,34,9e11618540f822dcb84963bbc3b62f0505e2cce05255f47142e6f2cdd24161ae
+data/nasa-power/journalier_2001_2010.csv,nasa-power,journalier,2001-01-01..2010-12-31,124168,34,35c99247757aec8f5e016db9d2e04ade5bfc42b593ab0a8e8cd5eb829792de41
+data/nasa-power/journalier_2011_2020.csv,nasa-power,journalier,2011-01-01..2020-12-31,124202,34,3aa7572c137be29c62510a24517f59d395a495de5f1db3cb2c3dcb2264ab4c2b
+data/nasa-power/journalier_2021_2025.csv,nasa-power,journalier,2021-01-01..2025-12-31,62084,34,daa5049165ec77f396a1f0d2814971f88381f93fd866511ac84a63bea731c334
+data/era5-land/journalier_2021_2025.csv,era5-land,journalier,2021-01-01..2025-12-31,62084,34,e223f2f2134091d5f0b07e9c99618bf870a57f09d214fc26f06393a936846b49
+data/cams/aerosol_pm_journalier_2021_2025.csv,cams,journalier,2021-01-01..2025-12-31,57936,34,95674a77614de3d482b25d261dc3758c60687a8ad549c8b409a2c3f20ad3c304
+horaire-nasa-power-2001-2025.zip,nasa-power,horaire,2001-01-01..2025-12-31,7450896,34,4fe3479f47890255f0e04ea26cc8c9df8b0465980c93e52ac68691359bac898b

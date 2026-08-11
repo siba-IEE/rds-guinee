@@ -34,7 +34,8 @@ Ce dépôt contient :
 - la **doctrine** : conventions, méthodologie de calage, contrôle qualité,
   fiches de grandeurs ;
 - les **données** ouvertes des localités solaires guinéennes, par source, avec
-  leur attribution ;
+  leur attribution : mensuel et journalier dans le dépôt (profondeur 1981-2025),
+  horaire en archive de release (voir `data/horaire/`) ;
 - le **schéma** de référence ;
 - des **exemples** d'utilisation sans dépendance (`examples/`).
 

@@ -11,8 +11,8 @@ doi: "10.5281/zenodo.21051754"
 license: CC-BY-4.0
 repository-code: "https://github.com/siba-IEE/rds-guinee"
 url: "https://github.com/siba-IEE/rds-guinee"
-version: "1.0.0"
-date-released: "2026-06-30"
+version: "2.0.0"
+date-released: "2026-08-11"
 keywords:
   - "énergie solaire"
   - "Guinée"
