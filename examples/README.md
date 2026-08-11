@@ -48,6 +48,6 @@ climatologie mensuelle d'un site :
 
 ```python
 import pandas as pd
-df = pd.read_csv("data/nasa-power/mensuel_1991_2020.csv")
+df = pd.read_csv("data/nasa-power/mensuel_1981_2025.csv")
 df[df.localite == "gin_kankan"].groupby("mois")["ghi"].mean()
 ```

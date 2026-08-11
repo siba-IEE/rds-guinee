@@ -6,8 +6,8 @@ en plus de l'attribution du référentiel (voir LICENSE).
 | Source | Couche | Licence | Attribution requise |
 |---|---|---|---|
 | NASA POWER | B | Libre (NASA) | The data was obtained from the NASA Langley Research Center POWER Project funded through the NASA Earth Science Division. |
-| ERA5 et ERA5-Land (ECMWF, Copernicus) | B | CC BY | Generated using Copernicus Climate Change Service information [année]. |
-| CAMS Radiation et EAC4 (Copernicus) | B | CC BY | Generated using Copernicus Atmosphere Monitoring Service information [année]. |
+| ERA5 et ERA5-Land (ECMWF, Copernicus) | B | CC BY | Generated using Copernicus Climate Change Service information 2026. |
+| CAMS Radiation et EAC4 (Copernicus) | B | CC BY | Generated using Copernicus Atmosphere Monitoring Service information 2026. |
 | PVGIS-SARAH-3 (JRC, CM SAF / EUMETSAT) | B | Libre (JRC) | PVGIS, Commission européenne (JRC) ; chaîne SARAH-3, CM SAF / EUMETSAT. |
 | ESMAP / WAPP, campagne de mesure Afrique de l'Ouest (Kankan) | A | CC BY 4.0 | World Bank / ESMAP / WAPP, Solar resource measurement campaign in West Africa (CC BY 4.0). |
 

@@ -7,7 +7,18 @@ Project funded through the NASA Earth Science / Applied Science Program. »
 
 Rayonnement : CERES SYN1deg et FLASHFlux, grille 1° (environ 110 km à 10° N).
 Météo (température, humidité, vent, précipitation) : MERRA-2.
-Précipitation : paramètre PRECTOTCORR (précipitation corrigée), série journalière.
+Précipitation : paramètre PRECTOTCORR (précipitation corrigée).
 Méthodologie : https://power.larc.nasa.gov/docs/methodology/
+
+Jeux publiés :
+- mensuel_1981_2025.csv : séries mensuelles pleine profondeur. Météo depuis
+  1981, rayonnement global et diffus depuis 1984, rayonnement direct, indice
+  de clarté et albédo depuis 2001 (début des observations CERES).
+- journalier_1981_1990.csv à journalier_2021_2025.csv : séries journalières
+  pleine profondeur, découpées par décennie. Mêmes planchers par paramètre.
+- horaire 2001-2025 : archive jointe à la release (voir data/horaire/README.md),
+  9 paramètres au pas horaire UTC, pas validés par contrôle qualité uniquement.
+
+Capture : août 2026, depuis l'API POWER (données NASA en date de capture).
 
 Données ouvertes (NASA). Voir aussi SOURCES.md à la racine du dépôt.

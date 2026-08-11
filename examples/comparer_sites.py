@@ -15,7 +15,8 @@ from collections import defaultdict
 from pathlib import Path
 from statistics import mean
 
-DONNEES = Path(__file__).resolve().parent.parent / "data" / "nasa-power" / "mensuel_1991_2020.csv"
+DONNEES = Path(__file__).resolve().parent.parent / "data" / "nasa-power" / "mensuel_1981_2025.csv"
+ANNEE_MIN, ANNEE_MAX = 1991, 2020  # fenêtre climatologique de référence
 PILOTES = [
     "gin_conakry_kaloum",
     "gin_kindia",
@@ -30,6 +31,8 @@ def ghi_annuel_moyen(localites: set[str]) -> dict[str, float]:
     valeurs: dict[str, list[float]] = defaultdict(list)
     with DONNEES.open(encoding="utf-8") as fichier:
         for ligne in csv.DictReader(fichier):
+            if not (ANNEE_MIN <= int(ligne["annee"]) <= ANNEE_MAX):
+                continue
             if ligne["localite"] in localites and ligne["ghi"]:
                 valeurs[ligne["localite"]].append(float(ligne["ghi"]))
     return {localite: mean(serie) for localite, serie in valeurs.items()}
