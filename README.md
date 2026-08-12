@@ -63,7 +63,9 @@ Citation :
 > Kalivogui, S. (2026). Référentiel de Données Solaires de la Guinée (RDS Guinée). Kuma Science. https://doi.org/10.5281/zenodo.21051754
 
 Ce DOI pointe toujours vers la dernière version. Chaque version a aussi son
-propre DOI : la 1.0.0 correspond à 10.5281/zenodo.21051755.
+propre DOI : la 1.0.0 correspond à 10.5281/zenodo.21051755, la 2.0.0 à
+10.5281/zenodo.21883903, et la 2.0.1 (archive des séries horaires incluse) à
+10.5281/zenodo.21895763.
 
 ## Contribuer
 
