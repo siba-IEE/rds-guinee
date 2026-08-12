@@ -1,5 +1,11 @@
 # Journal des versions
 
+## 2.0.1 (2026-08-11)
+
+Version d'archivage Zenodo uniquement, sans changement du dépôt : l'archive
+des séries horaires (horaire-nasa-power-2001-2025.zip) est jointe au dépôt
+archivé. DOI de version : 10.5281/zenodo.21895763.
+
 ## 2.0.0 (2026-08-11)
 
 Versement de la profondeur historique NASA POWER, aux 34 localités.
@@ -30,4 +36,4 @@ Versement de la profondeur historique NASA POWER, aux 34 localités.
 Première publication : doctrine, données mensuelles et journalières des 34
 localités (NASA POWER, CAMS, ERA5-Land, SARAH-3), premier point de mesure au
 sol à Kankan (couche A), exemples sans dépendance.
-DOI de version : 10.5281/zenodo.21051755.
+DOI de version : 10.5281/zenodo.21051755. La 2.0.0 correspond à 10.5281/zenodo.21883903.

@@ -5,7 +5,8 @@ millions de pas validés pour la seule source NASA POWER) rendrait le clonage
 pénible sans rien apporter à la lisibilité. Elles sont publiées en archive
 jointe à chaque release et archivées sur Zenodo avec le reste de
 l'instantané : https://doi.org/10.5281/zenodo.21051754 (le DOI concept pointe
-la dernière version).
+la dernière version). L'archive de la fenêtre 2001-2025 est archivée sous le
+DOI de version 10.5281/zenodo.21895763.
 
 ## Contenu de l'archive
 
